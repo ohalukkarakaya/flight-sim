@@ -1,0 +1,5 @@
+if(EXISTS "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests/flight_sim_tests[1]_tests.cmake")
+  include("/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests/flight_sim_tests[1]_tests.cmake")
+else()
+  add_test(flight_sim_tests_NOT_BUILT flight_sim_tests_NOT_BUILT)
+endif()

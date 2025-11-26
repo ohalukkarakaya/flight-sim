@@ -10,6 +10,8 @@ add_library(flight_sim_core
         src/core/physics.cpp
         src/core/conflict_detection.h
         src/core/conflict_detection.cpp
+        src/core/autopilot.h
+        src/core/autopilot.cpp
         src/sim/simulator.h
         src/sim/simulator.cpp
 )
