@@ -128,12 +128,27 @@ tests/CMakeFiles/flight_sim_tests.dir/test_autopilot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/flight_sim_tests.dir/test_autopilot.cpp.s"
 	cd /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/tests/test_autopilot.cpp -o CMakeFiles/flight_sim_tests.dir/test_autopilot.cpp.s
 
+tests/CMakeFiles/flight_sim_tests.dir/test_conflict_sink.cpp.o: tests/CMakeFiles/flight_sim_tests.dir/flags.make
+tests/CMakeFiles/flight_sim_tests.dir/test_conflict_sink.cpp.o: /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/tests/test_conflict_sink.cpp
+tests/CMakeFiles/flight_sim_tests.dir/test_conflict_sink.cpp.o: tests/CMakeFiles/flight_sim_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tests/CMakeFiles/flight_sim_tests.dir/test_conflict_sink.cpp.o"
+	cd /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/flight_sim_tests.dir/test_conflict_sink.cpp.o -MF CMakeFiles/flight_sim_tests.dir/test_conflict_sink.cpp.o.d -o CMakeFiles/flight_sim_tests.dir/test_conflict_sink.cpp.o -c /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/tests/test_conflict_sink.cpp
+
+tests/CMakeFiles/flight_sim_tests.dir/test_conflict_sink.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/flight_sim_tests.dir/test_conflict_sink.cpp.i"
+	cd /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/tests/test_conflict_sink.cpp > CMakeFiles/flight_sim_tests.dir/test_conflict_sink.cpp.i
+
+tests/CMakeFiles/flight_sim_tests.dir/test_conflict_sink.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/flight_sim_tests.dir/test_conflict_sink.cpp.s"
+	cd /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/tests/test_conflict_sink.cpp -o CMakeFiles/flight_sim_tests.dir/test_conflict_sink.cpp.s
+
 # Object files for target flight_sim_tests
 flight_sim_tests_OBJECTS = \
 "CMakeFiles/flight_sim_tests.dir/test_physics.cpp.o" \
 "CMakeFiles/flight_sim_tests.dir/test_conflict.cpp.o" \
 "CMakeFiles/flight_sim_tests.dir/test_scenarios.cpp.o" \
-"CMakeFiles/flight_sim_tests.dir/test_autopilot.cpp.o"
+"CMakeFiles/flight_sim_tests.dir/test_autopilot.cpp.o" \
+"CMakeFiles/flight_sim_tests.dir/test_conflict_sink.cpp.o"
 
 # External object files for target flight_sim_tests
 flight_sim_tests_EXTERNAL_OBJECTS =
@@ -142,12 +157,13 @@ tests/flight_sim_tests: tests/CMakeFiles/flight_sim_tests.dir/test_physics.cpp.o
 tests/flight_sim_tests: tests/CMakeFiles/flight_sim_tests.dir/test_conflict.cpp.o
 tests/flight_sim_tests: tests/CMakeFiles/flight_sim_tests.dir/test_scenarios.cpp.o
 tests/flight_sim_tests: tests/CMakeFiles/flight_sim_tests.dir/test_autopilot.cpp.o
+tests/flight_sim_tests: tests/CMakeFiles/flight_sim_tests.dir/test_conflict_sink.cpp.o
 tests/flight_sim_tests: tests/CMakeFiles/flight_sim_tests.dir/build.make
 tests/flight_sim_tests: libflight_sim_core.a
 tests/flight_sim_tests: lib/libgtest_main.a
 tests/flight_sim_tests: lib/libgtest.a
 tests/flight_sim_tests: tests/CMakeFiles/flight_sim_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable flight_sim_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable flight_sim_tests"
 	cd /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/flight_sim_tests.dir/link.txt --verbose=$(VERBOSE)
 	cd /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests && /usr/local/bin/cmake -D TEST_TARGET=flight_sim_tests -D TEST_EXECUTABLE=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests/flight_sim_tests -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=flight_sim_tests_TESTS -D CTEST_FILE=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests/flight_sim_tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P /usr/local/share/cmake/Modules/GoogleTestAddTests.cmake
 

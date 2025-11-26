@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/src/core/autopilot.cpp" "CMakeFiles/flight_sim_core.dir/src/core/autopilot.cpp.o" "gcc" "CMakeFiles/flight_sim_core.dir/src/core/autopilot.cpp.o.d"
   "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/src/core/conflict_detection.cpp" "CMakeFiles/flight_sim_core.dir/src/core/conflict_detection.cpp.o" "gcc" "CMakeFiles/flight_sim_core.dir/src/core/conflict_detection.cpp.o.d"
+  "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/src/core/conflict_sink.cpp" "CMakeFiles/flight_sim_core.dir/src/core/conflict_sink.cpp.o" "gcc" "CMakeFiles/flight_sim_core.dir/src/core/conflict_sink.cpp.o.d"
   "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/src/core/physics.cpp" "CMakeFiles/flight_sim_core.dir/src/core/physics.cpp.o" "gcc" "CMakeFiles/flight_sim_core.dir/src/core/physics.cpp.o.d"
   "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/src/sim/simulator.cpp" "CMakeFiles/flight_sim_core.dir/src/sim/simulator.cpp.o" "gcc" "CMakeFiles/flight_sim_core.dir/src/sim/simulator.cpp.o.d"
   )

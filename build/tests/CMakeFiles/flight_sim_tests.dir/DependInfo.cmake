@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/tests/test_autopilot.cpp" "tests/CMakeFiles/flight_sim_tests.dir/test_autopilot.cpp.o" "gcc" "tests/CMakeFiles/flight_sim_tests.dir/test_autopilot.cpp.o.d"
   "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/tests/test_conflict.cpp" "tests/CMakeFiles/flight_sim_tests.dir/test_conflict.cpp.o" "gcc" "tests/CMakeFiles/flight_sim_tests.dir/test_conflict.cpp.o.d"
+  "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/tests/test_conflict_sink.cpp" "tests/CMakeFiles/flight_sim_tests.dir/test_conflict_sink.cpp.o" "gcc" "tests/CMakeFiles/flight_sim_tests.dir/test_conflict_sink.cpp.o.d"
   "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/tests/test_physics.cpp" "tests/CMakeFiles/flight_sim_tests.dir/test_physics.cpp.o" "gcc" "tests/CMakeFiles/flight_sim_tests.dir/test_physics.cpp.o.d"
   "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/tests/test_scenarios.cpp" "tests/CMakeFiles/flight_sim_tests.dir/test_scenarios.cpp.o" "gcc" "tests/CMakeFiles/flight_sim_tests.dir/test_scenarios.cpp.o.d"
   )

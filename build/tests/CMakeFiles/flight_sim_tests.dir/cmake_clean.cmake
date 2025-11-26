@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/flight_sim_tests.dir/test_autopilot.cpp.o.d"
   "CMakeFiles/flight_sim_tests.dir/test_conflict.cpp.o"
   "CMakeFiles/flight_sim_tests.dir/test_conflict.cpp.o.d"
+  "CMakeFiles/flight_sim_tests.dir/test_conflict_sink.cpp.o"
+  "CMakeFiles/flight_sim_tests.dir/test_conflict_sink.cpp.o.d"
   "CMakeFiles/flight_sim_tests.dir/test_physics.cpp.o"
   "CMakeFiles/flight_sim_tests.dir/test_physics.cpp.o.d"
   "CMakeFiles/flight_sim_tests.dir/test_scenarios.cpp.o"

@@ -334,6 +334,30 @@ src/core/conflict_detection.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flight_sim_core.dir/build.make CMakeFiles/flight_sim_core.dir/src/core/conflict_detection.cpp.s
 .PHONY : src/core/conflict_detection.cpp.s
 
+src/core/conflict_sink.o: src/core/conflict_sink.cpp.o
+.PHONY : src/core/conflict_sink.o
+
+# target to build an object file
+src/core/conflict_sink.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/flight_sim_core.dir/build.make CMakeFiles/flight_sim_core.dir/src/core/conflict_sink.cpp.o
+.PHONY : src/core/conflict_sink.cpp.o
+
+src/core/conflict_sink.i: src/core/conflict_sink.cpp.i
+.PHONY : src/core/conflict_sink.i
+
+# target to preprocess a source file
+src/core/conflict_sink.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/flight_sim_core.dir/build.make CMakeFiles/flight_sim_core.dir/src/core/conflict_sink.cpp.i
+.PHONY : src/core/conflict_sink.cpp.i
+
+src/core/conflict_sink.s: src/core/conflict_sink.cpp.s
+.PHONY : src/core/conflict_sink.s
+
+# target to generate assembly for a file
+src/core/conflict_sink.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/flight_sim_core.dir/build.make CMakeFiles/flight_sim_core.dir/src/core/conflict_sink.cpp.s
+.PHONY : src/core/conflict_sink.cpp.s
+
 src/core/physics.o: src/core/physics.cpp.o
 .PHONY : src/core/physics.o
 
@@ -411,6 +435,9 @@ help:
 	@echo "... src/core/conflict_detection.o"
 	@echo "... src/core/conflict_detection.i"
 	@echo "... src/core/conflict_detection.s"
+	@echo "... src/core/conflict_sink.o"
+	@echo "... src/core/conflict_sink.i"
+	@echo "... src/core/conflict_sink.s"
 	@echo "... src/core/physics.o"
 	@echo "... src/core/physics.i"
 	@echo "... src/core/physics.s"

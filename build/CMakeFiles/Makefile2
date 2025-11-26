@@ -179,12 +179,12 @@ tests/clean: _deps/googletest-build/clean
 CMakeFiles/flight_sim_core.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flight_sim_core.dir/build.make CMakeFiles/flight_sim_core.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flight_sim_core.dir/build.make CMakeFiles/flight_sim_core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=3,4,5,6,7 "Built target flight_sim_core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=3,4,5,6,7,8 "Built target flight_sim_core"
 .PHONY : CMakeFiles/flight_sim_core.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/flight_sim_core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/flight_sim_core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles 0
 .PHONY : CMakeFiles/flight_sim_core.dir/rule
@@ -196,7 +196,7 @@ flight_sim_core: CMakeFiles/flight_sim_core.dir/rule
 # codegen rule for target.
 CMakeFiles/flight_sim_core.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flight_sim_core.dir/build.make CMakeFiles/flight_sim_core.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=3,4,5,6,7 "Finished codegen for target flight_sim_core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=3,4,5,6,7,8 "Finished codegen for target flight_sim_core"
 .PHONY : CMakeFiles/flight_sim_core.dir/codegen
 
 # clean rule for target.
@@ -216,7 +216,7 @@ CMakeFiles/flight_sim_cli.dir/all: CMakeFiles/flight_sim_core.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/flight_sim_cli.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/flight_sim_cli.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles 0
 .PHONY : CMakeFiles/flight_sim_cli.dir/rule
@@ -240,17 +240,17 @@ CMakeFiles/flight_sim_cli.dir/clean:
 # Target rules for target tests/CMakeFiles/flight_sim_tests.dir
 
 # All Build rule for target.
-tests/CMakeFiles/flight_sim_tests.dir/all: CMakeFiles/flight_sim_core.dir/all
 tests/CMakeFiles/flight_sim_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 tests/CMakeFiles/flight_sim_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+tests/CMakeFiles/flight_sim_tests.dir/all: CMakeFiles/flight_sim_core.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/flight_sim_tests.dir/build.make tests/CMakeFiles/flight_sim_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/flight_sim_tests.dir/build.make tests/CMakeFiles/flight_sim_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=8,9,10,11,12 "Built target flight_sim_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=9,10,11,12,13,14 "Built target flight_sim_tests"
 .PHONY : tests/CMakeFiles/flight_sim_tests.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/flight_sim_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/flight_sim_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles 0
 .PHONY : tests/CMakeFiles/flight_sim_tests.dir/rule
@@ -262,7 +262,7 @@ flight_sim_tests: tests/CMakeFiles/flight_sim_tests.dir/rule
 # codegen rule for target.
 tests/CMakeFiles/flight_sim_tests.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/flight_sim_tests.dir/build.make tests/CMakeFiles/flight_sim_tests.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=8,9,10,11,12 "Finished codegen for target flight_sim_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=9,10,11,12,13,14 "Finished codegen for target flight_sim_tests"
 .PHONY : tests/CMakeFiles/flight_sim_tests.dir/codegen
 
 # clean rule for target.
@@ -277,7 +277,7 @@ tests/CMakeFiles/flight_sim_tests.dir/clean:
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=13,14 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=15,16 "Built target gmock"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -294,7 +294,7 @@ gmock: _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/rule
 # codegen rule for target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=13,14 "Finished codegen for target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=15,16 "Finished codegen for target gmock"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/codegen
 
 # clean rule for target.
@@ -306,11 +306,11 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/clean:
 # Target rules for target _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=15,16 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=17,18 "Built target gmock_main"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -327,7 +327,7 @@ gmock_main: _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule
 # codegen rule for target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=15,16 "Finished codegen for target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=17,18 "Finished codegen for target gmock_main"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/codegen
 
 # clean rule for target.
@@ -342,7 +342,7 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=17,18 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=19,20 "Built target gtest"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -359,7 +359,7 @@ gtest: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/rule
 # codegen rule for target.
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=17,18 "Finished codegen for target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=19,20 "Finished codegen for target gtest"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/codegen
 
 # clean rule for target.
@@ -374,7 +374,7 @@ _deps/googletest-build/googletest/CMakeFiles/gtest.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=19,20 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=21,22 "Built target gtest_main"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -391,7 +391,7 @@ gtest_main: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/rule
 # codegen rule for target.
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=19,20 "Finished codegen for target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=21,22 "Finished codegen for target gtest_main"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/codegen
 
 # clean rule for target.

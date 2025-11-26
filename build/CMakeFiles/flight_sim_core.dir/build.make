@@ -114,10 +114,24 @@ CMakeFiles/flight_sim_core.dir/src/core/autopilot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/flight_sim_core.dir/src/core/autopilot.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/src/core/autopilot.cpp -o CMakeFiles/flight_sim_core.dir/src/core/autopilot.cpp.s
 
+CMakeFiles/flight_sim_core.dir/src/core/conflict_sink.cpp.o: CMakeFiles/flight_sim_core.dir/flags.make
+CMakeFiles/flight_sim_core.dir/src/core/conflict_sink.cpp.o: /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/src/core/conflict_sink.cpp
+CMakeFiles/flight_sim_core.dir/src/core/conflict_sink.cpp.o: CMakeFiles/flight_sim_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/flight_sim_core.dir/src/core/conflict_sink.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/flight_sim_core.dir/src/core/conflict_sink.cpp.o -MF CMakeFiles/flight_sim_core.dir/src/core/conflict_sink.cpp.o.d -o CMakeFiles/flight_sim_core.dir/src/core/conflict_sink.cpp.o -c /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/src/core/conflict_sink.cpp
+
+CMakeFiles/flight_sim_core.dir/src/core/conflict_sink.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/flight_sim_core.dir/src/core/conflict_sink.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/src/core/conflict_sink.cpp > CMakeFiles/flight_sim_core.dir/src/core/conflict_sink.cpp.i
+
+CMakeFiles/flight_sim_core.dir/src/core/conflict_sink.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/flight_sim_core.dir/src/core/conflict_sink.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/src/core/conflict_sink.cpp -o CMakeFiles/flight_sim_core.dir/src/core/conflict_sink.cpp.s
+
 CMakeFiles/flight_sim_core.dir/src/sim/simulator.cpp.o: CMakeFiles/flight_sim_core.dir/flags.make
 CMakeFiles/flight_sim_core.dir/src/sim/simulator.cpp.o: /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/src/sim/simulator.cpp
 CMakeFiles/flight_sim_core.dir/src/sim/simulator.cpp.o: CMakeFiles/flight_sim_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/flight_sim_core.dir/src/sim/simulator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/flight_sim_core.dir/src/sim/simulator.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/flight_sim_core.dir/src/sim/simulator.cpp.o -MF CMakeFiles/flight_sim_core.dir/src/sim/simulator.cpp.o.d -o CMakeFiles/flight_sim_core.dir/src/sim/simulator.cpp.o -c /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/src/sim/simulator.cpp
 
 CMakeFiles/flight_sim_core.dir/src/sim/simulator.cpp.i: cmake_force
@@ -133,6 +147,7 @@ flight_sim_core_OBJECTS = \
 "CMakeFiles/flight_sim_core.dir/src/core/physics.cpp.o" \
 "CMakeFiles/flight_sim_core.dir/src/core/conflict_detection.cpp.o" \
 "CMakeFiles/flight_sim_core.dir/src/core/autopilot.cpp.o" \
+"CMakeFiles/flight_sim_core.dir/src/core/conflict_sink.cpp.o" \
 "CMakeFiles/flight_sim_core.dir/src/sim/simulator.cpp.o"
 
 # External object files for target flight_sim_core
@@ -141,10 +156,11 @@ flight_sim_core_EXTERNAL_OBJECTS =
 libflight_sim_core.a: CMakeFiles/flight_sim_core.dir/src/core/physics.cpp.o
 libflight_sim_core.a: CMakeFiles/flight_sim_core.dir/src/core/conflict_detection.cpp.o
 libflight_sim_core.a: CMakeFiles/flight_sim_core.dir/src/core/autopilot.cpp.o
+libflight_sim_core.a: CMakeFiles/flight_sim_core.dir/src/core/conflict_sink.cpp.o
 libflight_sim_core.a: CMakeFiles/flight_sim_core.dir/src/sim/simulator.cpp.o
 libflight_sim_core.a: CMakeFiles/flight_sim_core.dir/build.make
 libflight_sim_core.a: CMakeFiles/flight_sim_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libflight_sim_core.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libflight_sim_core.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/flight_sim_core.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/flight_sim_core.dir/link.txt --verbose=$(VERBOSE)
 

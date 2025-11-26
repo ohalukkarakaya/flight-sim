@@ -12,6 +12,8 @@ add_library(flight_sim_core
         src/core/conflict_detection.cpp
         src/core/autopilot.h
         src/core/autopilot.cpp
+        src/core/conflict_sink.h
+        src/core/conflict_sink.cpp
         src/sim/simulator.h
         src/sim/simulator.cpp
 )

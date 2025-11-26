@@ -13,6 +13,7 @@ add_executable(flight_sim_tests
         test_conflict.cpp
         test_scenarios.cpp
         test_autopilot.cpp
+        test_conflict_sink.cpp
 )
 
 target_link_libraries(flight_sim_tests

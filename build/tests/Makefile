@@ -233,6 +233,30 @@ test_conflict.cpp.s:
 	cd /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/flight_sim_tests.dir/build.make tests/CMakeFiles/flight_sim_tests.dir/test_conflict.cpp.s
 .PHONY : test_conflict.cpp.s
 
+test_conflict_sink.o: test_conflict_sink.cpp.o
+.PHONY : test_conflict_sink.o
+
+# target to build an object file
+test_conflict_sink.cpp.o:
+	cd /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/flight_sim_tests.dir/build.make tests/CMakeFiles/flight_sim_tests.dir/test_conflict_sink.cpp.o
+.PHONY : test_conflict_sink.cpp.o
+
+test_conflict_sink.i: test_conflict_sink.cpp.i
+.PHONY : test_conflict_sink.i
+
+# target to preprocess a source file
+test_conflict_sink.cpp.i:
+	cd /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/flight_sim_tests.dir/build.make tests/CMakeFiles/flight_sim_tests.dir/test_conflict_sink.cpp.i
+.PHONY : test_conflict_sink.cpp.i
+
+test_conflict_sink.s: test_conflict_sink.cpp.s
+.PHONY : test_conflict_sink.s
+
+# target to generate assembly for a file
+test_conflict_sink.cpp.s:
+	cd /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/flight_sim_tests.dir/build.make tests/CMakeFiles/flight_sim_tests.dir/test_conflict_sink.cpp.s
+.PHONY : test_conflict_sink.cpp.s
+
 test_physics.o: test_physics.cpp.o
 .PHONY : test_physics.o
 
@@ -301,6 +325,9 @@ help:
 	@echo "... test_conflict.o"
 	@echo "... test_conflict.i"
 	@echo "... test_conflict.s"
+	@echo "... test_conflict_sink.o"
+	@echo "... test_conflict_sink.i"
+	@echo "... test_conflict_sink.s"
 	@echo "... test_physics.o"
 	@echo "... test_physics.i"
 	@echo "... test_physics.s"

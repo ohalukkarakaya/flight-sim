@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/flight_sim_core.dir/src/core/autopilot.cpp.o.d"
   "CMakeFiles/flight_sim_core.dir/src/core/conflict_detection.cpp.o"
   "CMakeFiles/flight_sim_core.dir/src/core/conflict_detection.cpp.o.d"
+  "CMakeFiles/flight_sim_core.dir/src/core/conflict_sink.cpp.o"
+  "CMakeFiles/flight_sim_core.dir/src/core/conflict_sink.cpp.o.d"
   "CMakeFiles/flight_sim_core.dir/src/core/physics.cpp.o"
   "CMakeFiles/flight_sim_core.dir/src/core/physics.cpp.o.d"
   "CMakeFiles/flight_sim_core.dir/src/sim/simulator.cpp.o"

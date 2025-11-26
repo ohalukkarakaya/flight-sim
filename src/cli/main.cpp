@@ -1,11 +1,13 @@
 #include "sim/simulator.h"
+#include "core/conflict_sink.h"
 #include <iostream>
 
 using namespace fsim;
 
 int main()
 {
-    Simulator sim(1.0); // 1 saniyelik adımlar
+    auto sink = std::make_shared<ConsoleConflictSink>();
+    Simulator sim(1.0, sink); // 1 snlik adımlar
 
     AircraftState a;
     a.id = "A";
@@ -29,10 +31,6 @@ int main()
         auto conflicts = sim.step();
         std::cout << "t=" << sim.current_time()
                   << "s, conflicts=" << conflicts.size() << "\n";
-        for (const auto& c : conflicts) {
-            std::cout << "  ALERT: " << c.aircraftA
-                      << " vs " << c.aircraftB << "\n";
-        }
     }
 
     return 0;

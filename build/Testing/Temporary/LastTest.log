@@ -1,10 +1,10 @@
-Start testing: Nov 26 20:57 CET
+Start testing: Nov 26 21:25 CET
 ----------------------------------------------------------
-1/16 Testing: PhysicsTest.PropagateStateMovesLinearly
-1/16 Test: PhysicsTest.PropagateStateMovesLinearly
+1/18 Testing: PhysicsTest.PropagateStateMovesLinearly
+1/18 Test: PhysicsTest.PropagateStateMovesLinearly
 Command: "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests/flight_sim_tests" "--gtest_filter=PhysicsTest.PropagateStateMovesLinearly" "--gtest_also_run_disabled_tests"
 Directory: /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests
-"PhysicsTest.PropagateStateMovesLinearly" start time: Nov 26 20:57 CET
+"PhysicsTest.PropagateStateMovesLinearly" start time: Nov 26 21:25 CET
 Output:
 ----------------------------------------------------------
 Running main() from /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -23,15 +23,15 @@ Note: Google Test filter = PhysicsTest.PropagateStateMovesLinearly
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"PhysicsTest.PropagateStateMovesLinearly" end time: Nov 26 20:57 CET
+"PhysicsTest.PropagateStateMovesLinearly" end time: Nov 26 21:25 CET
 "PhysicsTest.PropagateStateMovesLinearly" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/16 Testing: PhysicsTest.FuelBurnIncreasesWithThrottle
-2/16 Test: PhysicsTest.FuelBurnIncreasesWithThrottle
+2/18 Testing: PhysicsTest.FuelBurnIncreasesWithThrottle
+2/18 Test: PhysicsTest.FuelBurnIncreasesWithThrottle
 Command: "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests/flight_sim_tests" "--gtest_filter=PhysicsTest.FuelBurnIncreasesWithThrottle" "--gtest_also_run_disabled_tests"
 Directory: /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests
-"PhysicsTest.FuelBurnIncreasesWithThrottle" start time: Nov 26 20:57 CET
+"PhysicsTest.FuelBurnIncreasesWithThrottle" start time: Nov 26 21:25 CET
 Output:
 ----------------------------------------------------------
 Running main() from /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -50,15 +50,15 @@ Note: Google Test filter = PhysicsTest.FuelBurnIncreasesWithThrottle
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"PhysicsTest.FuelBurnIncreasesWithThrottle" end time: Nov 26 20:57 CET
+"PhysicsTest.FuelBurnIncreasesWithThrottle" end time: Nov 26 21:25 CET
 "PhysicsTest.FuelBurnIncreasesWithThrottle" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/16 Testing: PhysicsTest.ZeroDtDoesNotChangeState
-3/16 Test: PhysicsTest.ZeroDtDoesNotChangeState
+3/18 Testing: PhysicsTest.ZeroDtDoesNotChangeState
+3/18 Test: PhysicsTest.ZeroDtDoesNotChangeState
 Command: "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests/flight_sim_tests" "--gtest_filter=PhysicsTest.ZeroDtDoesNotChangeState" "--gtest_also_run_disabled_tests"
 Directory: /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests
-"PhysicsTest.ZeroDtDoesNotChangeState" start time: Nov 26 20:57 CET
+"PhysicsTest.ZeroDtDoesNotChangeState" start time: Nov 26 21:25 CET
 Output:
 ----------------------------------------------------------
 Running main() from /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -77,15 +77,15 @@ Note: Google Test filter = PhysicsTest.ZeroDtDoesNotChangeState
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"PhysicsTest.ZeroDtDoesNotChangeState" end time: Nov 26 20:57 CET
+"PhysicsTest.ZeroDtDoesNotChangeState" end time: Nov 26 21:25 CET
 "PhysicsTest.ZeroDtDoesNotChangeState" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/16 Testing: PhysicsTest.FuelDoesNotGoNegative
-4/16 Test: PhysicsTest.FuelDoesNotGoNegative
+4/18 Testing: PhysicsTest.FuelDoesNotGoNegative
+4/18 Test: PhysicsTest.FuelDoesNotGoNegative
 Command: "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests/flight_sim_tests" "--gtest_filter=PhysicsTest.FuelDoesNotGoNegative" "--gtest_also_run_disabled_tests"
 Directory: /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests
-"PhysicsTest.FuelDoesNotGoNegative" start time: Nov 26 20:57 CET
+"PhysicsTest.FuelDoesNotGoNegative" start time: Nov 26 21:25 CET
 Output:
 ----------------------------------------------------------
 Running main() from /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -104,15 +104,15 @@ Note: Google Test filter = PhysicsTest.FuelDoesNotGoNegative
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"PhysicsTest.FuelDoesNotGoNegative" end time: Nov 26 20:57 CET
+"PhysicsTest.FuelDoesNotGoNegative" end time: Nov 26 21:25 CET
 "PhysicsTest.FuelDoesNotGoNegative" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-5/16 Testing: ConflictTest.DetectsHorizontalAndVerticalConflict
-5/16 Test: ConflictTest.DetectsHorizontalAndVerticalConflict
+5/18 Testing: ConflictTest.DetectsHorizontalAndVerticalConflict
+5/18 Test: ConflictTest.DetectsHorizontalAndVerticalConflict
 Command: "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests/flight_sim_tests" "--gtest_filter=ConflictTest.DetectsHorizontalAndVerticalConflict" "--gtest_also_run_disabled_tests"
 Directory: /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests
-"ConflictTest.DetectsHorizontalAndVerticalConflict" start time: Nov 26 20:57 CET
+"ConflictTest.DetectsHorizontalAndVerticalConflict" start time: Nov 26 21:25 CET
 Output:
 ----------------------------------------------------------
 Running main() from /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -131,15 +131,15 @@ Note: Google Test filter = ConflictTest.DetectsHorizontalAndVerticalConflict
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"ConflictTest.DetectsHorizontalAndVerticalConflict" end time: Nov 26 20:57 CET
+"ConflictTest.DetectsHorizontalAndVerticalConflict" end time: Nov 26 21:25 CET
 "ConflictTest.DetectsHorizontalAndVerticalConflict" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-6/16 Testing: ConflictTest.NoConflictWhenFarApart
-6/16 Test: ConflictTest.NoConflictWhenFarApart
+6/18 Testing: ConflictTest.NoConflictWhenFarApart
+6/18 Test: ConflictTest.NoConflictWhenFarApart
 Command: "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests/flight_sim_tests" "--gtest_filter=ConflictTest.NoConflictWhenFarApart" "--gtest_also_run_disabled_tests"
 Directory: /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests
-"ConflictTest.NoConflictWhenFarApart" start time: Nov 26 20:57 CET
+"ConflictTest.NoConflictWhenFarApart" start time: Nov 26 21:25 CET
 Output:
 ----------------------------------------------------------
 Running main() from /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -158,15 +158,15 @@ Note: Google Test filter = ConflictTest.NoConflictWhenFarApart
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"ConflictTest.NoConflictWhenFarApart" end time: Nov 26 20:57 CET
+"ConflictTest.NoConflictWhenFarApart" end time: Nov 26 21:25 CET
 "ConflictTest.NoConflictWhenFarApart" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-7/16 Testing: ConflictTest.DetectConflictsFindsAllPairs
-7/16 Test: ConflictTest.DetectConflictsFindsAllPairs
+7/18 Testing: ConflictTest.DetectConflictsFindsAllPairs
+7/18 Test: ConflictTest.DetectConflictsFindsAllPairs
 Command: "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests/flight_sim_tests" "--gtest_filter=ConflictTest.DetectConflictsFindsAllPairs" "--gtest_also_run_disabled_tests"
 Directory: /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests
-"ConflictTest.DetectConflictsFindsAllPairs" start time: Nov 26 20:57 CET
+"ConflictTest.DetectConflictsFindsAllPairs" start time: Nov 26 21:25 CET
 Output:
 ----------------------------------------------------------
 Running main() from /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -185,15 +185,15 @@ Note: Google Test filter = ConflictTest.DetectConflictsFindsAllPairs
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"ConflictTest.DetectConflictsFindsAllPairs" end time: Nov 26 20:57 CET
+"ConflictTest.DetectConflictsFindsAllPairs" end time: Nov 26 21:25 CET
 "ConflictTest.DetectConflictsFindsAllPairs" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-8/16 Testing: ConflictTest.AtExactThreshold_IsNotConflict
-8/16 Test: ConflictTest.AtExactThreshold_IsNotConflict
+8/18 Testing: ConflictTest.AtExactThreshold_IsNotConflict
+8/18 Test: ConflictTest.AtExactThreshold_IsNotConflict
 Command: "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests/flight_sim_tests" "--gtest_filter=ConflictTest.AtExactThreshold_IsNotConflict" "--gtest_also_run_disabled_tests"
 Directory: /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests
-"ConflictTest.AtExactThreshold_IsNotConflict" start time: Nov 26 20:57 CET
+"ConflictTest.AtExactThreshold_IsNotConflict" start time: Nov 26 21:25 CET
 Output:
 ----------------------------------------------------------
 Running main() from /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -212,15 +212,15 @@ Note: Google Test filter = ConflictTest.AtExactThreshold_IsNotConflict
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"ConflictTest.AtExactThreshold_IsNotConflict" end time: Nov 26 20:57 CET
+"ConflictTest.AtExactThreshold_IsNotConflict" end time: Nov 26 21:25 CET
 "ConflictTest.AtExactThreshold_IsNotConflict" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-9/16 Testing: ScenarioTest.HeadOnConflictAppearsWithinTime
-9/16 Test: ScenarioTest.HeadOnConflictAppearsWithinTime
+9/18 Testing: ScenarioTest.HeadOnConflictAppearsWithinTime
+9/18 Test: ScenarioTest.HeadOnConflictAppearsWithinTime
 Command: "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests/flight_sim_tests" "--gtest_filter=ScenarioTest.HeadOnConflictAppearsWithinTime" "--gtest_also_run_disabled_tests"
 Directory: /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests
-"ScenarioTest.HeadOnConflictAppearsWithinTime" start time: Nov 26 20:57 CET
+"ScenarioTest.HeadOnConflictAppearsWithinTime" start time: Nov 26 21:25 CET
 Output:
 ----------------------------------------------------------
 Running main() from /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -239,15 +239,15 @@ Note: Google Test filter = ScenarioTest.HeadOnConflictAppearsWithinTime
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"ScenarioTest.HeadOnConflictAppearsWithinTime" end time: Nov 26 20:57 CET
+"ScenarioTest.HeadOnConflictAppearsWithinTime" end time: Nov 26 21:25 CET
 "ScenarioTest.HeadOnConflictAppearsWithinTime" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-10/16 Testing: ScenarioTest.AutopilotClimbsToWaypointAltitude
-10/16 Test: ScenarioTest.AutopilotClimbsToWaypointAltitude
+10/18 Testing: ScenarioTest.AutopilotClimbsToWaypointAltitude
+10/18 Test: ScenarioTest.AutopilotClimbsToWaypointAltitude
 Command: "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests/flight_sim_tests" "--gtest_filter=ScenarioTest.AutopilotClimbsToWaypointAltitude" "--gtest_also_run_disabled_tests"
 Directory: /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests
-"ScenarioTest.AutopilotClimbsToWaypointAltitude" start time: Nov 26 20:57 CET
+"ScenarioTest.AutopilotClimbsToWaypointAltitude" start time: Nov 26 21:25 CET
 Output:
 ----------------------------------------------------------
 Running main() from /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -266,15 +266,15 @@ Note: Google Test filter = ScenarioTest.AutopilotClimbsToWaypointAltitude
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"ScenarioTest.AutopilotClimbsToWaypointAltitude" end time: Nov 26 20:57 CET
+"ScenarioTest.AutopilotClimbsToWaypointAltitude" end time: Nov 26 21:25 CET
 "ScenarioTest.AutopilotClimbsToWaypointAltitude" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-11/16 Testing: ScenarioTest.ParallelFlight_NoConflictOccurs
-11/16 Test: ScenarioTest.ParallelFlight_NoConflictOccurs
+11/18 Testing: ScenarioTest.ParallelFlight_NoConflictOccurs
+11/18 Test: ScenarioTest.ParallelFlight_NoConflictOccurs
 Command: "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests/flight_sim_tests" "--gtest_filter=ScenarioTest.ParallelFlight_NoConflictOccurs" "--gtest_also_run_disabled_tests"
 Directory: /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests
-"ScenarioTest.ParallelFlight_NoConflictOccurs" start time: Nov 26 20:57 CET
+"ScenarioTest.ParallelFlight_NoConflictOccurs" start time: Nov 26 21:25 CET
 Output:
 ----------------------------------------------------------
 Running main() from /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -293,15 +293,15 @@ Note: Google Test filter = ScenarioTest.ParallelFlight_NoConflictOccurs
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"ScenarioTest.ParallelFlight_NoConflictOccurs" end time: Nov 26 20:57 CET
+"ScenarioTest.ParallelFlight_NoConflictOccurs" end time: Nov 26 21:25 CET
 "ScenarioTest.ParallelFlight_NoConflictOccurs" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-12/16 Testing: ScenarioTest.SameInitialConditionsProduceSameResult
-12/16 Test: ScenarioTest.SameInitialConditionsProduceSameResult
+12/18 Testing: ScenarioTest.SameInitialConditionsProduceSameResult
+12/18 Test: ScenarioTest.SameInitialConditionsProduceSameResult
 Command: "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests/flight_sim_tests" "--gtest_filter=ScenarioTest.SameInitialConditionsProduceSameResult" "--gtest_also_run_disabled_tests"
 Directory: /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests
-"ScenarioTest.SameInitialConditionsProduceSameResult" start time: Nov 26 20:57 CET
+"ScenarioTest.SameInitialConditionsProduceSameResult" start time: Nov 26 21:25 CET
 Output:
 ----------------------------------------------------------
 Running main() from /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -320,15 +320,15 @@ Note: Google Test filter = ScenarioTest.SameInitialConditionsProduceSameResult
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"ScenarioTest.SameInitialConditionsProduceSameResult" end time: Nov 26 20:57 CET
+"ScenarioTest.SameInitialConditionsProduceSameResult" end time: Nov 26 21:25 CET
 "ScenarioTest.SameInitialConditionsProduceSameResult" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-13/16 Testing: AutopilotTest.BelowTargetAltitude_CommandsPositiveClimbRate
-13/16 Test: AutopilotTest.BelowTargetAltitude_CommandsPositiveClimbRate
+13/18 Testing: AutopilotTest.BelowTargetAltitude_CommandsPositiveClimbRate
+13/18 Test: AutopilotTest.BelowTargetAltitude_CommandsPositiveClimbRate
 Command: "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests/flight_sim_tests" "--gtest_filter=AutopilotTest.BelowTargetAltitude_CommandsPositiveClimbRate" "--gtest_also_run_disabled_tests"
 Directory: /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests
-"AutopilotTest.BelowTargetAltitude_CommandsPositiveClimbRate" start time: Nov 26 20:57 CET
+"AutopilotTest.BelowTargetAltitude_CommandsPositiveClimbRate" start time: Nov 26 21:25 CET
 Output:
 ----------------------------------------------------------
 Running main() from /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -347,15 +347,15 @@ Note: Google Test filter = AutopilotTest.BelowTargetAltitude_CommandsPositiveCli
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"AutopilotTest.BelowTargetAltitude_CommandsPositiveClimbRate" end time: Nov 26 20:57 CET
+"AutopilotTest.BelowTargetAltitude_CommandsPositiveClimbRate" end time: Nov 26 21:25 CET
 "AutopilotTest.BelowTargetAltitude_CommandsPositiveClimbRate" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-14/16 Testing: AutopilotTest.AboveTargetAltitude_CommandsNegativeClimbRate
-14/16 Test: AutopilotTest.AboveTargetAltitude_CommandsNegativeClimbRate
+14/18 Testing: AutopilotTest.AboveTargetAltitude_CommandsNegativeClimbRate
+14/18 Test: AutopilotTest.AboveTargetAltitude_CommandsNegativeClimbRate
 Command: "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests/flight_sim_tests" "--gtest_filter=AutopilotTest.AboveTargetAltitude_CommandsNegativeClimbRate" "--gtest_also_run_disabled_tests"
 Directory: /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests
-"AutopilotTest.AboveTargetAltitude_CommandsNegativeClimbRate" start time: Nov 26 20:57 CET
+"AutopilotTest.AboveTargetAltitude_CommandsNegativeClimbRate" start time: Nov 26 21:25 CET
 Output:
 ----------------------------------------------------------
 Running main() from /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -374,15 +374,15 @@ Note: Google Test filter = AutopilotTest.AboveTargetAltitude_CommandsNegativeCli
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"AutopilotTest.AboveTargetAltitude_CommandsNegativeClimbRate" end time: Nov 26 20:57 CET
+"AutopilotTest.AboveTargetAltitude_CommandsNegativeClimbRate" end time: Nov 26 21:25 CET
 "AutopilotTest.AboveTargetAltitude_CommandsNegativeClimbRate" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-15/16 Testing: AutopilotTest.FinishesAfterLastWaypointReached
-15/16 Test: AutopilotTest.FinishesAfterLastWaypointReached
+15/18 Testing: AutopilotTest.FinishesAfterLastWaypointReached
+15/18 Test: AutopilotTest.FinishesAfterLastWaypointReached
 Command: "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests/flight_sim_tests" "--gtest_filter=AutopilotTest.FinishesAfterLastWaypointReached" "--gtest_also_run_disabled_tests"
 Directory: /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests
-"AutopilotTest.FinishesAfterLastWaypointReached" start time: Nov 26 20:57 CET
+"AutopilotTest.FinishesAfterLastWaypointReached" start time: Nov 26 21:25 CET
 Output:
 ----------------------------------------------------------
 Running main() from /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -401,15 +401,15 @@ Note: Google Test filter = AutopilotTest.FinishesAfterLastWaypointReached
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"AutopilotTest.FinishesAfterLastWaypointReached" end time: Nov 26 20:57 CET
+"AutopilotTest.FinishesAfterLastWaypointReached" end time: Nov 26 21:25 CET
 "AutopilotTest.FinishesAfterLastWaypointReached" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-16/16 Testing: AutopilotTest.AdvancesThroughMultipleWaypoints
-16/16 Test: AutopilotTest.AdvancesThroughMultipleWaypoints
+16/18 Testing: AutopilotTest.AdvancesThroughMultipleWaypoints
+16/18 Test: AutopilotTest.AdvancesThroughMultipleWaypoints
 Command: "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests/flight_sim_tests" "--gtest_filter=AutopilotTest.AdvancesThroughMultipleWaypoints" "--gtest_also_run_disabled_tests"
 Directory: /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests
-"AutopilotTest.AdvancesThroughMultipleWaypoints" start time: Nov 26 20:57 CET
+"AutopilotTest.AdvancesThroughMultipleWaypoints" start time: Nov 26 21:25 CET
 Output:
 ----------------------------------------------------------
 Running main() from /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -428,8 +428,62 @@ Note: Google Test filter = AutopilotTest.AdvancesThroughMultipleWaypoints
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"AutopilotTest.AdvancesThroughMultipleWaypoints" end time: Nov 26 20:57 CET
+"AutopilotTest.AdvancesThroughMultipleWaypoints" end time: Nov 26 21:25 CET
 "AutopilotTest.AdvancesThroughMultipleWaypoints" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Nov 26 20:57 CET
+17/18 Testing: ConflictSinkTest.NoConflicts_NoCallsToSink
+17/18 Test: ConflictSinkTest.NoConflicts_NoCallsToSink
+Command: "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests/flight_sim_tests" "--gtest_filter=ConflictSinkTest.NoConflicts_NoCallsToSink" "--gtest_also_run_disabled_tests"
+Directory: /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests
+"ConflictSinkTest.NoConflicts_NoCallsToSink" start time: Nov 26 21:25 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ConflictSinkTest.NoConflicts_NoCallsToSink
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConflictSinkTest
+[ RUN      ] ConflictSinkTest.NoConflicts_NoCallsToSink
+[       OK ] ConflictSinkTest.NoConflicts_NoCallsToSink (0 ms)
+[----------] 1 test from ConflictSinkTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"ConflictSinkTest.NoConflicts_NoCallsToSink" end time: Nov 26 21:25 CET
+"ConflictSinkTest.NoConflicts_NoCallsToSink" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/18 Testing: ConflictSinkTest.HeadOnScenario_TriggersSinkAtLeastOnce
+18/18 Test: ConflictSinkTest.HeadOnScenario_TriggersSinkAtLeastOnce
+Command: "/Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests/flight_sim_tests" "--gtest_filter=ConflictSinkTest.HeadOnScenario_TriggersSinkAtLeastOnce" "--gtest_also_run_disabled_tests"
+Directory: /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/tests
+"ConflictSinkTest.HeadOnScenario_TriggersSinkAtLeastOnce" start time: Nov 26 21:25 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/o.halukkarakaya/Desktop/dosyalar/projeler/11_2025/flight-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ConflictSinkTest.HeadOnScenario_TriggersSinkAtLeastOnce
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConflictSinkTest
+[ RUN      ] ConflictSinkTest.HeadOnScenario_TriggersSinkAtLeastOnce
+[       OK ] ConflictSinkTest.HeadOnScenario_TriggersSinkAtLeastOnce (0 ms)
+[----------] 1 test from ConflictSinkTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"ConflictSinkTest.HeadOnScenario_TriggersSinkAtLeastOnce" end time: Nov 26 21:25 CET
+"ConflictSinkTest.HeadOnScenario_TriggersSinkAtLeastOnce" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 26 21:25 CET
