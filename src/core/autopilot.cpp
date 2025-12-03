@@ -44,7 +44,7 @@ namespace fsim {
 
         const auto& wp = m_waypoints[m_state.currentIndex];
 
-        // Hedefe yatay yakınsa bir sonraki waypoint'e geç
+        // hedefe yatay yakınsa bir sonraki waypoint'e geç
         double dx = state.position.x - wp.position.x;
         double dy = state.position.y - wp.position.y;
         double horizDist = std::sqrt(dx*dx + dy*dy);
@@ -59,10 +59,8 @@ namespace fsim {
         double targetAlt = current_target_altitude();
         double targetSpeed = current_target_speed();
 
-        // Basit P-kontrol: alt error -> climbRate, speed error -> throttle
         double altError = targetAlt - state.position.z;
 
-        // Sadece dikey hızı kontrol ediyoruz, heading vs. şimdilik yok
         ci.climbRateMs = m_kpAlt * altError;
         ci.climbRateMs = std::clamp(ci.climbRateMs, -m_maxClimbRate, m_maxClimbRate);
 

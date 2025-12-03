@@ -3,7 +3,7 @@
 
 namespace fsim {
 
-// Basit lineer model: hız sabit, konum = konum + v * dt
+// hız sabit, konum = konum + v * dt
     AircraftState propagate_state(const AircraftState& current,
                                   const ControlInput& input,
                                   double dtSeconds)
@@ -39,4 +39,4 @@ namespace fsim {
         return rate * dtSeconds;
     }
 
-} // namespace fsim
+}

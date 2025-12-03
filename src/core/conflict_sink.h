@@ -8,7 +8,7 @@ namespace fsim {
 
 // Çarpışma bilgilerini "bir yere" göndermek için arayüz.
 // Production'da console'a yazabilir, dosyaya loglayabilir,
-// testte ise sahte (fake) bir sınıf ile gözlemlenir.
+// testte ise sahte bir sınıf ile gözlemlenir.
     struct IConflictSink {
         virtual ~IConflictSink() = default;
 
@@ -16,7 +16,7 @@ namespace fsim {
                                   double currentTimeSeconds) = 0;
     };
 
-// Basit production implementation: conflict'leri std::cout'a yazar.
+// prod için: conflict'leri std::cout'a yazar.
     class ConsoleConflictSink : public IConflictSink {
     public:
         void on_conflicts(const std::vector<Conflict>& conflicts,

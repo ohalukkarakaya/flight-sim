@@ -4,7 +4,7 @@
 
 using namespace fsim;
 
-// 1) Head-on çarpışma senaryosu (integration / scenario test)
+// 1) Head on çarpışma senaryosu (integration / scenario test)
 TEST(ScenarioTest, HeadOnConflictAppearsWithinTime)
 {
     Simulator sim(1.0); // 1s step
